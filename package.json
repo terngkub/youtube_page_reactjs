@@ -13,10 +13,13 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-	"predeploy": "npm run build",
-	"deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "gh-pages": "^1.1.0"
+    "bootstrap": "^4.0.0",
+    "gh-pages": "^1.1.0",
+    "react-bootstrap": "^0.32.1",
+    "youtube-api-search": "0.0.5"
   }
 }
