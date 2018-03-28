@@ -1,5 +1,6 @@
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css'
+import _ from 'lodash';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import YTSearch from 'youtube-api-search';
@@ -30,10 +31,12 @@ class App extends Component {
 	}
 
 	render() {
+		const videoSearch = _.debounce((term) => { this.videoSearch(term) }, 300);
+
 		return (
-			<div>
-				<SearchBar onSearchTermChange={term => this.videoSearch(term)} />
-				<div className="row">
+			<div className="container">
+				<SearchBar onSearchTermChange={videoSearch} />
+			<div className="row">
 				<VideoDetail video={this.state.selectedVideo} />
 				<VideoList
 					onVideoSelect={selectedVideo => this.setState({selectedVideo})}

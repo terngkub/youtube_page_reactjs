@@ -4,11 +4,20 @@
 }
 
 .search-bar input {
+	padding: 0 10px;
 	width: 75%;
 }
 
-.video-item img {
+.video-item {
 	max-width: 64px;
+}
+
+.media-object {
+	margin-right: 15px;
+}
+
+.video-detail {
+	margin-bottom: 10px;
 }
 
 .video-detail .details {
@@ -16,6 +25,10 @@
 	padding: 10px;
 	border: 1px solid #ddd;
 	border-radius: 4px;
+}
+
+.list-group {
+	padding-left: 15px !important;
 }
 
 .list-group-item {
