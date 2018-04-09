@@ -2,7 +2,7 @@
 Youtube webapp in react.js
 
 ### About this project
-This is a Youtube page webapp. You can search and run Youtube videos on it. I learned this from an online course ["Tutorial: Intro To React"](https://reactjs.org/tutorial/tutorial.html). In this project, I learn about basic react.js, axios, promise and Youtube API. I used create-react-app and install Bootstrap 4.0.0 with npm instead of the course project starter.
+This is a Youtube page webapp. You can search and run Youtube videos on it. I learned this from an online course ["Tutorial: Intro To React"](https://www.udemy.com/react-redux). In this project, I learn about basic react.js, axios, promise and Youtube API. I used create-react-app and install Bootstrap 4.0.0 with npm instead of the course project starter.
 
 ![youtube_page_reactjs](screenshot.png/?raw=true)
 
