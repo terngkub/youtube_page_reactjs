@@ -19,7 +19,7 @@
   "devDependencies": {
     "bootstrap": "^4.0.0",
     "gh-pages": "^1.1.0",
-    "lodash": "^4.17.5",
+    "lodash": "^4.17.13",
     "react-bootstrap": "^0.32.1",
     "youtube-api-search": "0.0.5"
   }
